@@ -3,6 +3,7 @@
 import streamlit as st  # Librería que permite crear el dashboard
 #Inicio del código
 st.set_page_config(page_title="Presentación final",page_icon=":bookmark_tabs:")
+st.write("# :bookmark_tabs: Presentación final de estancias profesionales")
 st.caption("Agencia de Energía del Estado de Puebla, Elaborado por Victor Joaquín Ortíz Vignon, ")
 st.write("### Acerca de esta presentación")
 st.write(":wave: ¡Bienvenido a nuestra presentación! Somos Ana, Ricardo y Victor. ¡Acompáñanos al recuento de esta aventura que fueron nuestras estancias profesionales!")
