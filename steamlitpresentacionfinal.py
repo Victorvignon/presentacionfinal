@@ -1,0 +1,30 @@
+#Código de deployment de los resultados de la estancia profesional, por Victos Joaquín Ortíz Vignon, Agencia de Energía del Estado de Puebla
+#Librerías----
+import streamlit as st  # Librería que permite crear el dashboard
+#Inicio del código
+st.set_page_config(page_title="Presentación final",page_icon=":bookmark_tabs:")
+st.caption("Agencia de Energía del Estado de Puebla, Elaborado por Victor Joaquín Ortíz Vignon, ")
+st.write("### Acerca de esta presentación")
+st.write(":wave: ¡Bienvenido a nuestra presentación! Somos Ana, Ricardo y Victor. ¡Acompáñanos al recuento de esta aventura que fueron nuestras estancias profesionales!")
+st.write("En esta página encontrarás ligas a otros documentos que se mencionen en la presentación")
+st.write(":placard: Puedes encontrar la presentación aquí: https://tecmx-my.sharepoint.com/:p:/g/personal/a01551983_tec_mx/EVlcPaPP1G5CoAMPWKJ4NigBHL6offZN0DM4Nn4MECKMkw?e=veESGT")
+st.write("Puedes encontrar el reporte ejecutivo de Ana sobre la estancia aquí: https://drive.google.com/file/d/16wL4_amMm161dh4pHOWvgV29z_TBrvc1/view?usp=sharing")
+st.write("Puedes encontar el reporte ejecutivo de Victor sobre la estancia aquí: https://drive.google.com/file/d/1G6r3eVsZBsaGW4F62M2uFlDkUAYjPKhr/view?usp=sharing")
+st.write("### Acerca la Agencia")
+st.write("La Agencia de Energía del Estado de Puebla es un Organismo Público Descentralizado con autonomía operativa, técnica, presupuestal y administrativa, con personalidad jurídica y patrimonio propio creado en 2019 a través de un decreto del poder legislativo publicado en el periódico oficial en noviembre de 2019. Dicha Agencia surge del compromiso tanto federal como estatal por el desarrollo sustentable, teniendo bases legales que abarcan desde el artículo cuarto, párrafo quinto de la constitución, como el artículo 121 de la Constitución del Estado de Puebla hasta los más de setenta tratados que México ha firmado en materia de medio ambiente. Teniendo intención de dinamizar la oferta energética para un mayor acceso a un costo menor y transitar hacia alternativas limpias de acuerdo con el Plan Nacional de Desarrollo (2019-2024). Es así donde las actividades de la Agencia inciden en seis de las diecisiete metas, que incluyen: fin de la pobreza, energía asequible y no contaminante, trabajo decente y crecimiento económico, industria, innovación e infraestructura, ciudades y comunidades sostenibles y acción por el clima")
+st.write(":books: Revisa el reporte complementario sobre los objetivos de la agencia aquí: https://docs.google.com/document/d/19QgrvUNLtiVzyx1cbDHIgPcZ7cEv_BKx/edit?usp=sharing&ouid=115184711022103055929&rtpof=true&sd=true")
+st.write("### Acerca de las actividades administrativas")
+st.image("https://drive.google.com/file/d/1TEOudydDdOuPGSKyPpTZmAOkabkxF7ni/view",caption="Recibo oficial")
+st.image("https://drive.google.com/file/d/1XEBOhvBrx1W6xlyh-XqQDsnKL6ytX6MW/view",caption="Formato de viáticos")
+st.write("### Acerca del análisis de datos")
+st.write("La  ciencia  de  datos  es  una  práctica  relativamente  reciente  en  el  ámbito  de  las ciencias, concretamente  el  término  siendo  acuñado  a  principios  de  los  1960’s. Debido a lo anterior, la gama de metodologías es menor en número en comparación a otras ciencias.")
+st.write("La Agencia de Energía del Estado de Puebla, en acuerdo con las agendas y planes ya mencionados, da pie al proyecto en el cual se ve abarcado este análisis, y cuyo objetivo general es: “Desarrollar una política pública que tenga como meta el acceso universal a la electricidad en México. Para lo anterior es necesario documentar la problemática  y  definir  la  ruta  crítica  desde  el  diagnóstico,  planeación,  e implementación de soluciones del acceso universal a la electricidad a nivel estatal”.  Con dicho objetivo en mente, el presente análisis se planea 3 objetivos: ")
+st.write(":books: Generar bases de datos con indicadores relacionados a la electrificación a nivel estatal y nacional.")
+st.write(":chart_with_upwards_trend: Visualizar la información de manera preliminar y de valor. ")
+st.write(":mag: Analizar la correlación de los indicadores con la electrificación.")
+st.write(":books: Accede a la página sobre el análisis de datos y sus documentos complementarios aquí: https://share.streamlit.io/victorvignon/reporteelectrico/main/visualizacion.py")
+st.write("### Acerca las Políticas Públicas")
+st.write("Un proceso fundamental del gobierno radica en la construcción, implementación y evaluación de Políticas Públicas. Estas son una práctica y disciplina que concentra la formulación de proyectos que funcionan a través de acciones que atienden problemas públicos y además conlleva una relación multidisciplinaria y de participación de diferentes actores para la toma de decisiones.  En este sentido, la Agencia, con base en el Artículo Segundo del Capítulo Primero de su decreto de creación, impulsa y coordina políticas públicas que fomenten el Desarrollo Energético Sostenible, conjugando con los diferentes componentes y dimensiones que estas conllevan. Lo anterior, además en línea con los más de setenta tratados internacionales en materia de medio ambiente firmados por México, siendo estos fuente con eficacia directa en la aplicación e interpretación de la Constitución.")
+st.write(":books: Revisa el cuadernillo de Políticas Públicas aquí: https://docs.google.com/document/d/17VGKh2LcSI6nTag-xUg4TLlBo2AAOqj2/edit?usp=sharing&ouid=115184711022103055929&rtpof=true&sd=true")
+st.write("Gracias por escuchar nuestra historia, te agradecemos profundamente")
+
